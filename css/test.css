@@ -1,0 +1,15 @@
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* 
+.text::after {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: brown;
+  border-radius: 50%;
+  content: '';
+} */
