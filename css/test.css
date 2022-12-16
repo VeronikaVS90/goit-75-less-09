@@ -38,13 +38,17 @@
   width: 100px;
   height: 100px;
   background-color: green;
-  /* transform: rotate(25deg); */
-  animation-name: rotate;
-  animation-duration: 1000ms;
-  /* animation-delay: 2000ms;
-  animation-iteration-count: 2; */
-  /* animation-direction: reverse; */
-  animation: rotate 1000ms 2 reverse;
+  animation: rotate 2000ms 2 reverse;
+  overflow: hidden;
+}
+
+.box.green span {
+  transform: scale(1);
+  transition: transform 1000ms;
+}
+
+.box.green:hover span {
+  transform: scale(4);
 }
 
 .box.blue {
